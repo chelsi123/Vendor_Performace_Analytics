@@ -35,13 +35,18 @@ The raw datasets used in this project are available here:
 ## 📝 1. Data Extraction & Cleaning
 Notebook: **`Data_Extraction_and_Preparation.ipynb`**
 
-Key steps performed:
-- Loaded raw vendor-related datasets  
-- Cleaned missing values and duplicates  
-- Standardized numeric fields  
-- Performed SQL joins & transformations using **DuckDB**  
-- Created the final analytical dataset: **`vendor_sales_summary`**  
-- Prepared data for EDA and dashboard development  
+
+This notebook prepares all data for the Vendor Performance Analytics project. It:
+
+- Connects to DuckDB and loads raw CSVs (purchases, sales, vendor_invoice, purchase_prices)
+- Cleans data (missing values, whitespace, data types)
+- Computes key vendor metrics:  
+  Total Purchase/Sales Qty & Dollars, Excise Tax, Freight Cost, Gross Profit, Profit Margin, Stock Turnover, Sales-to-Purchase Ratio
+- Creates the final **vendor_sales_summary** table by merging purchase, sales, and freight data
+- Exports the summary CSV for use in EDA and Power BI
+
+**Technologies:** Python, DuckDB/SQL, Pandas  
+**Output:** `vendor_sales_summary` — the core dataset for the full analysis.
 
 ---
 
