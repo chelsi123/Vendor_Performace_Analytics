@@ -18,7 +18,7 @@ This project showcases:
 ## 📁 Raw Data Access
 The raw datasets used in this project are available here:
 
-🔗 **Google Drive (Raw Data Folder):** *(https://drive.google.com/drive/folders/1DHnYXDKghQZRn6Et9kQCI4WXeskXYzWh?usp=drive_link)*
+🔗 **Google Drive (Raw Data Folder):** *https://drive.google.com/drive/folders/1XomfEE819R8WCZt_snisPzbQzO4_3N-i?usp=sharing*
 
 
 
