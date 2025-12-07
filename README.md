@@ -54,14 +54,18 @@ This notebook prepares all data for the Vendor Performance Analytics project. It
 Notebook: **`Vendor_Performance_EDA_and_Insights.ipynb`**
 
 Analytical work includes:
-- Distribution analysis of sales, purchase amounts, profit, and quantities  
-- Boxplots for outlier detection  
-- Correlation analysis (price, sales, margins, inventory movement)  
-- Scatter plots for trend discovery  
-- Order size segmentation  
-- Pareto (80/20) vendor contribution insights  
-- Summary statistics & comparative vendor performance  
 
+
+- Data loading, cleaning, and handling zero/invalid values  
+- Descriptive statistics and outlier detection  
+- Distribution analysis (histograms, boxplots)  
+- Vendor and brand performance insights  
+- Correlation analysis across sales, quantity, margins, and profitability  
+- Ranking top and low-performing vendors/brands  
+- Profit margin analysis with 95% confidence intervals  
+- Two-sample t-test comparing profit margins of top vs. low-performing vendors  
+
+This notebook transforms the cleaned dataset into actionable insights for business decision-making.
 ---
 
 ## 📈 3. Power BI Dashboard
