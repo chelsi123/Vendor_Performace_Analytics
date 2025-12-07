@@ -62,21 +62,48 @@ Analytical work includes:
 ## 📈 3. Power BI Dashboard
 File: **`Vendor_performance_dashboard.pdf`**
 
-Interactive dashboard highlights:
-- Top-performing vendors  
-- Revenue & profit trends  
-- Profit margin insights  
-- Vendor segmentation  
-- Purchase vs Sales behavior  
-- Inventory turnover  
-- Low-performing vendor alerts  
+
+
+This dashboard provides a complete view of vendor, brand, and purchase performance using DAX measures, calculated tables, and visual insights.
+
+### 🔢 Key KPIs (DAX)
+- Total Sales ($)
+- Total Purchase ($)
+- Gross Profit ($)
+- Profit Margin (%)
+- Unsold Capital ($)
+
+### 📦 Purchase Contribution
+- Created a `PurchaseContribution` table   
+- Calculated PurchaseContribution%  column using DAX
+- Visualized **Top 10 Vendors by Purchase Contribution%**
+
+### 💰 Sales Insights
+- Bar charts for **Top 10 Vendors by Sales**  
+- Bar charts for **Top 10 Brands by Sales**
+
+### 🏷️ Brand Performance
+- Created Brand Performance table  
+- Added `TargetBrand` column using DAX  
+- Scatter plot to identify brands needing promotional/pricing action
+
+### 🎯 Bulk Purchasing Impact
+- DAX columns for `Order Size` and `Unit Purchase Price`  
+- Donut chart to show how bulk purchasing affects unit price
+
+### 📉 Low Stock Turnover Vendors
+- Created `LowTurnoverVendor` table  
+- Column chart highlighting low-performing vendors by StockTurnOver
+
+This dashboard delivers clear, actionable insights into vendor profitability, brand performance, and purchasing efficiency.
+
 
 
 
 ---
 
 ## 🔍 Key Insights
-(Replace with your actual results; example insights below.)
+
 
 - Profit margin showed a **slight negative correlation** with sales price.  
 - Strong relationship between **purchase quantity and sales quantity**.  
