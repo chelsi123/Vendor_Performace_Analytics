@@ -12,12 +12,7 @@ This project showcases:
 
 ---
 
-## 📂 Repository Structure
-├── Data_Extraction_and_Preparation.ipynb # Cleaning, merging, DuckDB SQL, final vendor_sales_summary table
-├── Vendor_Performance_EDA_and_Insights.ipynb # EDA: distributions, correlations, outliers, vendor segmentation
-├── README.md  
-├──Vendor_performance_dashboard.pdf # Power BI Vendor Performance Dashboard
-├──vendor_sales_summary.csv
+
 ---
 
 ## 📁 Raw Data Access
